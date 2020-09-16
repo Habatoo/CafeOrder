@@ -36,18 +36,24 @@
         >
         
         <RadioButton
+            android:id="@+id/radioButtonTea"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
+            android:checked="true"
+            android:onClick="onClickChangeDrink"
             android:textColor="@color/white"
-            android:text="@string/Coffee"/>
+            android:text="@string/Tea"
+            />
 
         <RadioButton
+            android:id="@+id/radioButtonCoffee"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
+            android:onClick="onClickChangeDrink"
             android:textColor="@color/white"
-            android:text="@string/Tea"/>
+            android:text="@string/Coffee"/>
     </RadioGroup>
 
     <TextView
@@ -150,6 +156,7 @@
         android:layout_height="0dp"
         android:src="@drawable/button"
         android:layout_margin="8dp"
+        android:onClick="onClickSendOrder"
         android:contentDescription="@string/button_send"
         app:layout_constraintTop_toBottomOf="@id/spinnerCoffee"
         app:layout_constraintStart_toStartOf="parent"

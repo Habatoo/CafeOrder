@@ -2,19 +2,21 @@
     <string name="app_name">CafeOrder</string>
     <string name="logo_name">Логотип кафе</string>
     <string name="welcome">Добро пожаловать</string>
+    <string name="default_name">клиент</string>
+    <string name="default_password">пароль</string>
     <string name="hint_name">Введите ваше имя:</string>
     <string name="hint_password">Введите ваш пароль:</string>
     <string name="button_create_order">СОЗДАТЬ ЗАКАЗ</string>
     <string name="warning_message">Все поля дожны быть заполнены</string>
-    <string name="Hello">Привет клиент, что будете заказывать?</string>
+    <string name="Hello">Привет, %s! Что будете заказывать?</string>
     <string name="Coffee">Кофе</string>
     <string name="Tea">Чай</string>
-    <string name="Additions">Что добавит в ваш чай?</string>
+    <string name="Additions">Что добавить в ваш %s?</string>
     <string name="Milk">Молоко</string>
     <string name="Sugar">Сахар</string>
     <string name="Lemon">Лимон</string>
     <string name="choose_drink">Выберите вид напитка</string>
-    
+
     <string-array name="options_of_coffee">
         <item>Американо</item>
         <item>Эспрессо</item>
@@ -26,6 +28,8 @@
         <item>Зеленый</item>
         <item>Красный</item>
     </string-array>
-    
+
     <string name="button_send">Кнопка отправки заказа</string>
+    <string name="order">Имя: %s\nПароль: %s\nНапиток: %s\nВид напитка: %s\n</string>
+    <string name="need_additions">\nНеобходимые добавки:</string>
 </resources>
